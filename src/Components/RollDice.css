@@ -1,0 +1,40 @@
+.roll-dice {
+  min-height: 100vh;
+  background-color: #f5f7ff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.roll-die-btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  background-color: #1e3a8a;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.roll-die-btn:hover {
+  background-color: #162d6b;
+  transform: translateY(-2px);
+}
+
+.roll-die-btn:active {
+  transform: translateY(0);
+}
